@@ -3,6 +3,7 @@ import Header from "./Header";
 import SearchInput from "./SearchInput";
 import EmojiResults from "./EmojiResults";
 import filterEmoji from "./filterEmoji";
+import "./App.css"
 
 export default class App extends PureComponent {
   constructor(props) {
