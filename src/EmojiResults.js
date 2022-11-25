@@ -3,10 +3,8 @@ import PropTypes from "prop-types";
 import Clipboard from "clipboard";
 
 import EmojiResultRow from "./EmojiResultRow";
-import "./EmojiResults.css";
-
+import "./EmojiResults.css"
 export default class EmojiResults extends PureComponent {
-
   static propTypes = {
     emojiData: PropTypes.array
   };
