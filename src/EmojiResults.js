@@ -26,7 +26,8 @@ export default class EmojiResults extends PureComponent {
               symbol={emojiData.symbol}
               title={emojiData.title}
             />
-          ))}</div>
+          ))}
+        </div>
       </div>
     );
   }
